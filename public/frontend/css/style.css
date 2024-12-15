@@ -1,0 +1,39 @@
+/* Global Rules */
+:root {
+    --title: #4f658b;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Landing Page */
+.landing {
+    /* min-height: 100vh; */
+}
+
+.landing .img-cont {
+    max-width: 400px;
+    margin: auto;
+}
+.landing .branches .branch button {
+    /* font-size: 20px; */
+}
+
+/* Menu Page */
+.menu-page {
+    min-height: 100vh;
+}
+.menu-page header .img-cont {
+    max-width: 200px;
+}
+.menu-page main .categories .img-cont {
+    max-width: 48px;
+}
+.menu-page main .categories .category-name {
+    margin-top: 8px;
+    font-size: 15px;
+    text-transform: capitalize;
+    color: var(--title);
+    font-weight: 500;
+}
