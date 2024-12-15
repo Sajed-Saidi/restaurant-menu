@@ -286,9 +286,9 @@
                             <h6>{{ $settings->phone }}</h6>
                             <div class="contact-social">
                                 <ul>
-                                    <li><a class="hover-target" href="{{ $settings->facebook }}"><i
+                                    <li><a class="hover-target" href="{{ $settings->facebook_url }}"><i
                                                 class="fab fa-facebook-f"></i></a></li>
-                                    <li><a class="hover-target" href="{{ $settings->instagram }}"><i
+                                    <li><a class="hover-target" href="{{ $settings->instagram_url }}"><i
                                                 class="fab fa-instagram"></i></a></li>
                                 </ul>
                             </div>
