@@ -9,3 +9,7 @@ Route::get('/', [FrontendController::class, 'menu']);
 Route::get('qr-code', function () {
     return view('qr-code');
 });
+
+Route::get('/test', function () {
+    return "adfasdf";
+});
