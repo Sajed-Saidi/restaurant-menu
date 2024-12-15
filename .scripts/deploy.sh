@@ -13,6 +13,8 @@ git pull origin master
 # Install composer dependencies
 php composer.phar install --no-dev --no-interaction --prefer-dist --optimize-autoloader
 
+php artisan key:generate
+
 # Clear the old cache
 php artisan clear-compiled
 
